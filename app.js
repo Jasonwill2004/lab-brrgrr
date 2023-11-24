@@ -142,7 +142,7 @@ function renderIngredientsBoard(){
 //In the p element having price-details as the class, display the calculated
 //price based on ingredients
 function renderPrice(){
-  let sum=0;
+  let sum=10;
   Object.keys(state).forEach(item=>{
     if(state[item]){
       sum+=ingredients[item];
